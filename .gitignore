@@ -13,3 +13,7 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+<<<<<<< HEAD
+=======
+/nbproject/private/
+>>>>>>> 3330644bc5744c77d1066088ddfe9ea1f4a27dd2
