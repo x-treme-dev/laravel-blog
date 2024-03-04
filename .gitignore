@@ -14,6 +14,9 @@ yarn-error.log
 /.idea
 /.vscode
 /nbproject/private/
+.composer.lock
+.composer.json
+
  
  
  
