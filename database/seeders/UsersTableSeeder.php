@@ -6,7 +6,7 @@ use Illuminate\Database\Seeder;
 use DB;
 use Hash;
 
-class UserToDoTableSeeder extends Seeder
+class UsersTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -16,12 +16,12 @@ class UserToDoTableSeeder extends Seeder
     public function run()
     {
         //очистить таблицу перед записью
-        DB::table('users_todo') -> delete();
+        DB::table('users') -> delete();
         //заполнить таблицу
-        DB::table('users_todo') -> insert([
-            'name' => 'makwon@ya.ru',
-            'email' => 'mrkwon@ya.ru',
-            'password' => Hash :: make('123'),
+        DB::table('users') -> insert([
+            'name' => 'ivan',
+            'email' => 'ivan@mail.ru',
+            'password' =>Hash::make('123'),
          ]); 
         
     }
